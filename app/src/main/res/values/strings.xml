@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Safety Nest</string>
+    <string name="Location">Location</string>
+    <string name="forgot">Forgot Password?</string>
+</resources>
