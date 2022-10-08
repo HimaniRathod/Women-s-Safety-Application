@@ -23,21 +23,13 @@ public class MainActivity extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             public void run() {
 
-                 SharedPreferences sharedPreferences=getSharedPreferences(Loginpage.PREFS_NAME,0);
-                 boolean hasLoggedIn = sharedPreferences.getBoolean("hasLoggedIn",false);
-                 if(hasLoggedIn)
-                 {
 
-                Intent i = new Intent(MainActivity.this,Dashboard.class);
-                startActivity(i);
-                     finish();
-                 }
 
-                 else{
-                     Intent i = new Intent(MainActivity.this,Loginpage.class);
-                     startActivity(i);
-                     finish();
-                 }
+
+                    Intent i = new Intent(MainActivity.this,Loginpage.class);
+                    startActivity(i);
+                    finish();
+
 
 
             }
