@@ -22,7 +22,7 @@ public class Women_and_Law extends AppCompatActivity {
         String[] Laws_regarding_rape = {"Select Section","Section 375" , "Section 376", "Section 376A", "Section 376B", "Section 376C", "Section 376D", "Section 376E" };
         String[] Kidnapping_or_abduction = {"Select Section","Section 363","Section 373"};
         String[] Murder_dowryDeath_abetmentTo_sucide = {"Select Section","Section 302","Section 304B","Section 306"};
-        String[] Sexual_harassment = {"Section 354","Section 354A"};
+        String[] Sexual_harassment = {"Section Sectiom","Section 354A"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
