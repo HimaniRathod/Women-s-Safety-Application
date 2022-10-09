@@ -28,7 +28,7 @@ public class Women_and_Law extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
 
             super.onCreate(savedInstanceState);
-            setContentView(R.layout.activity_main);
+            setContentView(R.layout.activity_women_and_law);
             spinner1 = findViewById(R.id.spinner1);
             spinner2 = findViewById(R.id.spinner2);
             spinner3 = findViewById(R.id.spinner3);
