@@ -41,7 +41,6 @@ public class Guardian extends AppCompatActivity {
     myadapter adap;
     long count;
     ArrayList<Model> contactlist=new ArrayList<>();
-
     private static final int RESULT_PICK_CONTACT =1;
     private Button select;
     @Override
@@ -61,7 +60,9 @@ public class Guardian extends AppCompatActivity {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
                 if(dataSnapshot.exists()){
-                    count= dataSnapshot.getChildrenCount();}
+                    count= dataSnapshot.getChildrenCount();
+
+                }
 
 
             }
@@ -164,7 +165,8 @@ public class Guardian extends AppCompatActivity {
 
                 adap.startListening();
                 rcv.setAdapter(adap);
-
+                finish();
+                startActivity(new Intent(Guardian.this,Guardian.class));
 
             }
 
